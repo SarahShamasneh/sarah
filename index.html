@@ -10,28 +10,42 @@
 		.mega-header {
 			background-image: #headerIMG;
 		}
+		#headerIMG.h1 {
+			z-index: 1;
+			text-align: center;
+		}
+		#headerIMG.h2 {
+			z-index: 1;
+			text-align: center;
+		}
 
 	</style>
 </head>
 <body>
-	<div class="container">
-	<header class="mega-header">
-	<img src="keyboard.jpg" alt="Keyboard Header" id="headerIMG">
-	<h1>Sara Shbab</h1>
-	<h2>I nailed it!</h2>
-    </header>
-	<h1>This is me:</h1>
-	<p>My name is Sara Shbab and I work for <a href="https://www.asaltech.com" target="_blank">Asal Technologies</a></p>
-	<div style="background-color:pink">
-		<h2>Skills I'm goning to get</h1>
-		<p>Here are ome of the technologies I'm aming to learn:</p>
-		<ul>
-			<li>HTML & CSS</li>
-			<li>None.js</li>
-			<li>React</li>
-			<li>Angular</li>
-			<li>Webpack</li>
-		</ul>	
+	<div class="mainContainer">
+		<div class="container">
+			<div class="mega-header">
+				<img src="keyboard.jpg" alt="Keyboard Header" id="headerIMG">
+				<div class="titleContainer">
+					<h1>Sara Shbab</h1>
+					<h2>I nailed it!</h2>
+				</div>
+			</div>
+		<div>
+			<h1>This is me:</h1>
+			<p>My name is Sara Shbab and I work for <a href="https://www.asaltech.com" target="_blank">Asal Technologies</a></p>
+		</div>
+		<div style="background-color:pink">
+			<h2>Skills I'm goning to get</h1>
+			<p>Here are ome of the technologies I'm aming to learn:</p>
+			<ul>
+				<li>HTML & CSS</li>
+				<li>None.js</li>
+				<li>React</li>
+				<li>Angular</li>
+				<li>Webpack</li>
+			</ul>	
+		</div>
 	</div>
 </body>
 </html>
