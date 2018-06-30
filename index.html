@@ -1,33 +1,61 @@
+
+
+
 <!DOCTYPE html>
 <html>
 <head>
-	<style type="text/css">
-		div#wrapperHeader {
+		<style type="text/css">
+		div#container {
 		 width:100%;
 		 height;200px; 
 		 background:url(keyboard.jpg) repeat-x 0 0;
 		 text-align:center;
+		 z-index: -1
 		}
 
-		div#wrapperHeader div#header {
+		div#container div#mega-header {
 		 width:1000px;
 		 height:200px;
 		 margin:0 auto;
 		}
 
-		div#wrapperHeader div#header img {
+		div#container div#mega-header img {
 		 width:;
 		 height:;
 		 margin:0 auto;
+		 z-index: -1;
+		 opacity: 0.4;
 		}
+	</style>
+
+
 	</style>
 </head>
 <body>
-	<div id="wrapperHeader">
- 		<div id="header">
- 			<h1>Sara Shbab</h1>
- 			<h2>My First Webpage</h2>
- 		</div> 
+	<div class="mainContainer">
+		<div class="container">
+			<div class="mega-header">
+				<img src="keyboard.jpg" alt="Keyboard Header" id="headerIMG">
+				<div class="titleContainer">
+					<h1>Sara Shbab</h1>
+					<h2>I nailed it!</h2>
+				</div>
+			</div>
+		<div>
+			<h1>This is me:</h1>
+			<p>My name is Sara Shbab and I work for <a href="https://www.asaltech.com" target="_blank">Asal Technologies</a></p>
+		</div>
+		<div style="background-color:pink">
+			<h2>Skills I'm goning to get</h1>
+			<p>Here are ome of the technologies I'm aming to learn:</p>
+			<ul>
+				<li>HTML & CSS</li>
+				<li>None.js</li>
+				<li>React</li>
+				<li>Angular</li>
+				<li>Webpack</li>
+			</ul>	
+		</div>
 	</div>
 </body>
 </html>
