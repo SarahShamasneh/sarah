@@ -10,6 +10,8 @@
 		 font-family: sans-serif;
 		 color: white;
 		 opacity: 0.2;
+		 border-top-style: solid;
+		 border-top-color: #ff0066;
 		}
 
 		div#wrapperHeader div#header {
@@ -23,19 +25,24 @@
 		 height:100%;
 		 margin:0 auto;
 		}
-		div#wrapperHeader section#intro {
+		.intro{
 			width:100%;
 			height:100px;
 			margin:0 auto;
+			text-align: left;
+			font-family: sans-serif;
+			text-indent: 50px;
 		}
 
-		div#wrapperHeader section#skills {
+		.skills{
 			width:100%;
 			height:200px;
 			margin:0 auto;
+			background-color: #ff0066;
 			text-align: left;
 			font-family: sans-serif;
 			color: white;
+			text-indent: 50px;
 		}
 	</style>
 </head>
@@ -46,13 +53,13 @@
  			<h2>My First Webpage</h2>
  		</div> 
 	</div>
-	<section class="intro">
+	<div class="intro">
 		<h1>This is me:</h1>
-		<p>My name is Sara Shbab and I work for <a href="https://www.asaltech.com" target="_blank">Asal Technologies</a></p>
-	</section>
-	<section class="skills" style="background-color:#ff0066">
-		<h2>Skills I'm goning to get</h1>
-		<p>Here are ome of the technologies I'm aming to learn:</p>
+		<p>My name is Sara Shbab and I work for <a href="https://www.asaltech.com" target="_blank">Asal Technologies</a>, I will become a web developer</p>
+	</div>
+	<div class="skills" >
+		<h2>Skills I'm going to get</h1>
+		<p>Here are some of the technologies I'm aming to learn:</p>
 		<ul>
 			<li>HTML & CSS</li>
 			<li>None.js</li>
@@ -60,6 +67,7 @@
 			<li>Angular</li>
 			<li>Webpack</li>
 		</ul>	
-	</section>
+	</div>
+
 </body>
 </html>
