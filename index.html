@@ -5,53 +5,59 @@
 <html>
 <head>
 	<style type="text/css">
-		div#header {
+		div#bg {
 		 width:100%;
-		 height;200px; 
+		 height:200px; 
 		 background:url(keyboard.jpg) repeat-x 0 0;
 		 text-align:center;
-		 z-index: -1
+		 z-index: -1;
 		}
 
-		div#content {
-		 width:1000px;
+		section#intro {
+		 width:100%;
+		 height:100px;
+		 margin:0 auto;
+		}
+
+		section#skills {
+		 width:100%;
 		 height:200px;
 		 margin:0 auto;
 		}
 
-		div#header img {
-		 width:;
-		 height:;
-		 margin:0 auto;
-		 z-index: -1;
-		 opacity: 0.4;
+		div#bg img {
+			opacity: 0.2;
+			z-index: -1;
+			position: absolute;
+			width:100%;
+			height:200px;
 		}
 	</style>
 </head>
 <body>
-	<div class="wrapper">
-		<div class="header">
+	<div class="header">
+		<div class="bg">
 			<img src="keyboard.jpg" alt="Keyboard Header" id="headerIMG">
-			<div class="titleContainer">
-				<h1>Sara Shbab</h1>
-				<h2>I nailed it!</h2>
-			</div>
 		</div>
 		<div class="content">
-			<h1>This is me:</h1>
-			<p>My name is Sara Shbab and I work for <a href="https://www.asaltech.com" target="_blank">Asal Technologies</a></p>
+			<h1>"Sara Shbab" <small>Software Engineer</small></h1>
+
 		</div>
-		<div class="footer" style="background-color:pink">
-			<h2>Skills I'm goning to get</h1>
-			<p>Here are ome of the technologies I'm aming to learn:</p>
-			<ul>
-				<li>HTML & CSS</li>
-				<li>None.js</li>
-				<li>React</li>
-				<li>Angular</li>
-				<li>Webpack</li>
-			</ul>	
-		</div>
+	<section class="intro">
+		<h1>This is me:</h1>
+		<p>My name is Sara Shbab and I work for <a href="https://www.asaltech.com" target="_blank">Asal Technologies</a></p>
+	</section>
+	<section class="skills" style="background-color:pink">
+		<h2>Skills I'm goning to get</h1>
+		<p>Here are ome of the technologies I'm aming to learn:</p>
+		<ul>
+			<li>HTML & CSS</li>
+			<li>None.js</li>
+			<li>React</li>
+			<li>Angular</li>
+			<li>Webpack</li>
+		</ul>	
+	</section>
 </div>
 </body>
 </html>
