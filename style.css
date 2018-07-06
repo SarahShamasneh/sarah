@@ -1,0 +1,90 @@
+body {
+			margin: 0;
+		}
+
+		.wrapper-header {
+			border-top: solid;
+			border-color: #ff0066;
+			border-top-width: 15px;
+			width:100%;
+			height:auto;
+			min-height: 200px; 
+			background:url(keyboard.jpg);
+			background-repeat: no-repeat;
+			background-size: 100% 100%;
+			text-align:center;
+			font-family: sans-serif;
+			color: white;
+			margin: 0;
+		}
+
+		.wrapper-header .header {
+			height:auto;
+			min-height: 200px;
+			width: 100%;
+			margin:0 auto;
+			background-color: #000000;
+			-webkit-filter: opacity(50%); /* Safari 6.0 - 9.0 */
+    		filter: opacity(50%);
+		}
+
+		.wrapper-header .header h1 {
+			text-align: center;
+			margin-top: 0;
+		}
+
+		.wrapper-header .header img {
+			width:100%;
+			height:auto;
+			min-height: 100px;
+			margin:0 auto;
+			background-repeat: no-repeat;
+			background-size: 100% 100%;
+		}
+
+		.intro {
+			width:100%;
+			height:auto;
+			min-height: 200px;
+			margin:0;
+			text-align: left;
+			font-family: sans-serif;
+			text-indent: 50px;
+		}
+		.intro p {
+			margin-left: 5px;
+		}
+
+		.skills {
+			width:100%;
+			height:auto;
+			min-height: 200px;
+			margin:0;
+			background-color: #ff0066;
+			text-align: left;
+			font-family: sans-serif;
+			color: white;
+		}
+
+		.skills ul, .skills h2, .skills p {
+			margin-left: 50px;
+			top: 50%;
+			margin-bottom: 0;
+		}
+
+		.contact {
+			height:auto;
+			min-height: 50px;
+			width: 100%;
+			text-align: center;
+			margin-top: 0;
+			max-height: 100px;
+		}
+
+		.contact p {
+			margin: 0 auto;
+		}
+
+		.border {
+			border-top: 30px;
+		}
